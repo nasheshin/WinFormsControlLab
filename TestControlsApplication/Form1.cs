@@ -17,5 +17,9 @@ namespace TestControlsApplication
             InitializeComponent();
         }
 
+        private void colorPicker1_ColorChanged(object sender, EventArgs e)
+        {
+            //MessageBox.Show("Hi");
+        }
     }
 }
